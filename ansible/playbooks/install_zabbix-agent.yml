@@ -1,0 +1,7 @@
+---
+- name: Install and configure Zabbix Agent
+  hosts: servers
+  become: yes
+  roles:
+    - zabbix-agent
+
