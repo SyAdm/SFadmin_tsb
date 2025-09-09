@@ -1,0 +1,6 @@
+# Игнорируем инвентори
+hosts
+hosts.bak
+inventory
+*.pub
+
